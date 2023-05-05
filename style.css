@@ -1,0 +1,49 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+     
+  }
+  h1 {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  form {
+    margin-top: 30px;
+  }
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  ul {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    text-align: left;
+  }
+  li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+  body{
+   background-color: burlywood;
+  }
